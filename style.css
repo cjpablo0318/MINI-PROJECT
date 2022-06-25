@@ -1,9 +1,13 @@
 
 body {
-    background-image: url("html.jpeg");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+
  img {
      width: 50px;
      height: 50px;
@@ -11,16 +15,18 @@ body {
 
 
 .topnav {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
   }
 
   .active-link  {
-    background-color: rgb(66, 66, 35);
+    background-color: #688E26;
     
   }
 
-  .nav-item:hover {background-color: rgb(66, 66, 35);}
+  .nav-item:hover { background-color: #688E26;;
+  }
+    
 
 
  
