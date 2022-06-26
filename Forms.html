@@ -19,7 +19,8 @@
     <nav class="navbar navbar-expand-sm" style="background-color: rgb(238, 227, 227);">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="logo.jpeg"><h1 class="fw-bold font-color text-dark c d-inline-block align-text-top">HTML</h1>
+        <img src  ="logo.jpeg" alt class="logo"><h1 class="fw-bold font-color text-dark d-inline-block align-text-top">HTML</h1>
+        </a>
       </a>
           <button class="navbar-toggler" type="button"
           data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -73,7 +74,132 @@
   
   <!--Forms-->
 
+  <div class="container center p-2">
+    <div>
+      <h3 class="full-height d-inline-center fw-bold bg-primary">Forms</h3>
+      
+      <li class="full-height bg-white p-1">
+        An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+      </li>
+      <h5>Example</h5>
+      <h7>You can put your First and Last name on the box below.</h7>
 
-</body>
+      <div class="form">
+        <form action="" class="form-row">
+          <div>
 
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="John"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Doe">
+            </form>
+            <br>
+          <div class="full">
+            <input type="submit" value="Submit" />
+            </div>
+            <br>
+            <img src="samplescreenshot.jpeg" width="80%" height="80%" alt="uTry" usemap="#uTrymap">
+      
+            <div>
+              <h3 class="full-height d-inline-center fw-bold bg-white">The &lt;form&gt; Element</h3>
+             </div>
+             <li class="full-height bg-white p-1">
+              The HTML &lt;form&gt; element is used to create an HTML form for user input:
+            </li>
+              <strong><p>&lt;form&gt;</p></strong>
+              <strong><p><i>forms</i></p></strong>
+              <strong><p>&lt;/form&gt;</p></strong>
+
+              <P>The &lt;form&gt; element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.</P>
+
+            <div>
+              <h3 class="full-height d-inline-center fw-bold bg-white">The &lt;input&gt; Element</h3>
+              <p>The HTML &lt;input&gt; element is the most used form element.</p>
+              <p>An <strong>&lt;input&gt;</strong> element can be displayed in many ways, depending on the <strong>type</strong> attribute.</p>
+              <p>Here are some example:</p>
+            <div>
+              <br>
+              <li> <input type="button"><br>&lt;input type="button"&gt;</li>
+              <br>
+              <li> <input type="checkbox"><br>&lt;input type="checkbox"&gt;</li>
+              <br>
+              <li> <input type="color"><br>&lt;input type="color"&gt;</li>
+              <br>
+              <li> <input type="date"><br>&lt;input type="date"&gt;</li>
+              <br>
+              <li> <input type="datetime-local"><br>&lt;input type="datetime-local"&gt;</li>
+              <br>
+              <li> <input type="email"><br>&lt;input type="email"&gt;</li>
+              <br>
+              <li> <input type="file"><br>&lt;input type="file"&gt;</li>
+              <br>
+              <li> <input type="hidden"><br>&lt;input type="hidden"&gt;</li>
+              <br>
+              <li> <input type="image"><br>&lt;input type="image"&gt;</li>
+              <br>
+              <li> <input type="month"><br>&lt;input type="month"&gt;</li>
+              <br>
+              <li> <input type="number"><br>&lt;input type="number"&gt;</li>
+              <br>
+              <li> <input type="password"><br>&lt;input type="password"&gt;</li>
+              <br>
+              <li> <input type="radio"><br>&lt;input type="radio"&gt;</li>
+              <br>
+              <li> <input type="range"><br>&lt;input type="range"&gt;</li>
+              <br>
+              <li> <input type="reset"><br>&lt;input type="reset"&gt;</li>
+              <br>
+              <li> <input type="search"><br>&lt;input type="search"&gt;</li>
+              <br>
+              <li> <input type="submit"><br>&lt;input type="submit"&gt;</li>
+              <br>
+              <li> <input type="tel"><br>&lt;input type="tel"&gt;</li>
+              <br>
+              <li> <input type="text"><br>&lt;input type="text"&gt;</li>
+              <br>
+              <li> <input type="time"><br>&lt;input type="time"&gt;</li>
+              <br>
+              <li> <input type="url"><br>&lt;input type="url"&gt;</li>
+              <br>
+              <li> <input type="week"><br>&lt;input type="week"&gt;</li>
+            </div>
+          <div>
+            <br>
+            <h3 class="full-height d-inline-center fw-bold bg-white">Text Field</h3>
+            <p>The &lt;input type="text"&gt; defines a single-line input field for text input.</p>
+          </div>  
+           
+            <h4>Example</h4>
+            <strong><p>&lt;form&gt;</p>
+               <p>&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;</p>
+               <p>&lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;</p>
+               <p>&lt;label for="lname"&gt;Last name:&lt;/label>&lt;br&gt;</p>
+               <p>&lt;input type="text" id="lname" name="lname"&gt;</p>
+            <p>&lt;/form&gt;</p>
+            </strong>   
+            <br>
+            <h4>Example</h4>
+            <p>This is how the HTML code above will be displayed in a browser:</p>
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="John"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Doe">
+            </form>
+            <br>
+            <h4>The &lt;label&gt; Element </h4>
+            <p>Notice the use of the &lt;label&gt; element in the example above.</p>
+            <p>The &lt;label&gt; tag defines a label for many form elements.</p>
+            <p>The &lt;label&gt; element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.</p>
+            <p>The &lt;label&gt; element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the &lt;label&gt; element, it toggles the radio button/checkbox.</p>
+            <p>The for attribute of the &lt;label&gt;tag should be equal to the id attribute of the &lt;input&gt; element to bind them together.</p>
+            <br>
+            <h4>Radio Buttons</h4>
+            <p>The &lt;input type="radio"&gt;defines a radio button.</p>
+            <p>Radio buttons let a user select ONE of a limited number of choices.</p>
+        
+         
+          </div>
+  </body>
 </html>
