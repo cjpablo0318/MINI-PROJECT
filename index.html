@@ -22,11 +22,14 @@
     <link rel="stylesheet" href="style.css" />
     <title></title>
     <style>
-      /*  .container {
+      .main-content {
         display: grid;
         grid-template-columns: 33% 67%;
         max-width: 75%;
-      } */
+        background-color: white;
+        border: black solid 1px;
+        margin: 0 auto;
+      } 
       .contact {
         background-color: #688e26;
         padding: 50px;
@@ -51,15 +54,16 @@
       textarea {
         width: 100%;
       }
-      button {
+      .submitbutton {
         width: 100%;
       }
-      @media only screen and (max-width: 800px) {
-      }
-      .container {
+      
+      @media (max-width: 768px) {
+        .main-content {
         grid-template-columns: 100%;
+        }
+      
       }
-
       h1 {
         text-align: center;
       }
@@ -68,6 +72,12 @@
       }
       div {
         text-align: center;
+      }
+      .icons {
+        border: black solid 1px;
+      }
+      .icons i {
+        font-size: 50px;
       }
     </style>
   </head>
@@ -179,12 +189,12 @@
 
     <!--HOME-->
 
-    <div class="container">
+    <div class="main-content">
       <div class="contact">
         <h1 class="fw bold">Learn and Register to HTML website!</h1>
       </div>
       <div class="form">
-        <h3 class="fw bold text-light">Send us a message</h3>
+        <h3 class="fw bold text-dark">Send us a message</h3>
         <form action="" class="form-row">
           <div>
             <label for="firstName">Your Name</label>
@@ -195,10 +205,22 @@
             <input type="text" id="Email Address" />
           </div>
           <div class="full">
-            <input type="submit" value="Submit" />
+            <input class="submitbutton" type="submit" value="Submit" />
           </div>
         </form>
+        <br>
+        <br>
+        <br>
+        <p>or log in with;</p>
+        <div class="icons">  
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+        </div>
+      
       </div>
+      
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
