@@ -11,14 +11,14 @@ body {
 }
 
 .topnav {
-  background-color: white;
+  background-color: #F4EEA9;
   overflow: hidden;
 }
 
 .active-link {
-  background-color: #688e26;
+  background-color: #06AED5;
 }
 
 .nav-item:hover {
-  background-color: #688e26;
+  background-color: #06AED5;
 }
